@@ -2,11 +2,12 @@
 body {
     font-family: 'Lato', Arial, sans-serif;
     font-size:16px;
-    background: linear-gradient(-50deg, #a9a9a9, whitesmoke, lightgray) !important;
+    background: linear-gradient(-35deg, #a9a9a9, whitesmoke, lightgray, darkslategrey);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     height: 100vh;
 }
+
 @keyframes pop-out-to-right {
     0% {
         background-position: 50%;
@@ -20,6 +21,33 @@ body {
         background-position: 50%;
     }
 }
+
+.
+
+.flexbox-column {
+    columns: 2 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.flexbox-column-1 {
+    min-height: 200px;
+    min-width: fit-content;
+    text-align-all: left;
+
+}
+
+.flexbox-column-2 {
+    min-height: 200px;
+    min-width: fit-content;
+
+}
+
+.top-padding{
+    padding-top:30px;
+    white-space: normal;
+}
+
 
 navbar navbar-expand-lg bg-light{
     background-attachment: local;
@@ -46,3 +74,34 @@ div1 {
     float: left;
     margin-left: auto;
 }
+ *{
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+}
+
+ .form{
+     width: 90%;
+     max-width: 600px;
+ }
+ .input-group{
+     margin-bottom: 30px;
+ }
+ input, textarea{
+     width:100%;
+     padding: 10px;
+     outline: 0;
+     border: 1px solid black;
+     color: black;
+     background: transparent;
+     font-size: 20px;
+ }
+ label{
+     height: 100%;
+     position: absolute;
+     left: 0;
+     top: 0;
+     padding: 10px;
+     color: black;
+     cursor: text;
+ }
