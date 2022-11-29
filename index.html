@@ -8,9 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
-<nav class="navbar navbar-expand-lg bg-light">
+
+<nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
+        <a class="navbar-brand" href="#"><h2>David Santos</h2></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggle-icon"></span>
         </button>
@@ -34,10 +35,19 @@
 </nav>
 
 <body>
-<div class="d-inline-fluid p-2">
-    <div class="row"><h1>David Santos</h1>
-        <h3>Full-Stack Junior Web Developer-JavaScript, CSS, HTML, SQL, React, Typescript, Json, Express, Redux, Docker</h3>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+
+<!--<section class="carousel-img" id="carousel">-->
+<section id="Title">
+    <div class="Intro">
+        <div class="container text-center mt-4"><h1><strong>Junior Full Stack Web Developer</strong></h1>
+            <ul>Former Student-Athlete, turned Insurance agent, turned Web Developer. California made, Texas raised. Adopted by Cornhusker Nation and now residing in the Land of Enchantment.</ul>
+        </div>
+    </div>
+</section>
+
+<section id="carousel">
+<div class="container fluid p-2">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -46,7 +56,7 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./images/David-photo-1.png" class="d-block w-100" alt="Me">
+                    <img src="./images/david-photo-1.png" class="d-block w-100" alt="Me">
                 </div>
                 <div class="carousel-item active">
                     <img src="./images/IMG_7947.jpg" class="d-block w-100" alt="Photo">
@@ -70,21 +80,35 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+</div>
+</section>
 
-        <div class="row"><h2>About me</h2>
-            <p>Former Student-Athlete, turned Insurance agent, turned Web Developer. California made, Texas raised. Adopted by Cornhusker Nation and now residing in the Land of Enchantment.</p>
-            <p>My passions include Football(both playing and watching), working out regularly, outdoor activities, Tech and  video games. I enjoy spending time with close family and hanging out at the park with my dog, Penelope. I'm a team player who loves to chat it up in any setting.</p>
+<section id="about-me">
+    <div class="About">
+        <div class="container text-center mt-5"><h2><strong>About me</strong></h2>
+            <ul>My passions include Football(both playing and watching), working out regularly, outdoor activities, Tech and  video games. I enjoy spending time with close family and hanging out at the park with my dog, Penelope. I'm a team player who loves to chat it up in any setting.</ul>
         </div>
     </div>
 </div>
+</section>
 
-<Section>
+<Section id="portfolio">
     <div class="container text-center">
-        <h2 class="Portfolio">Portfolio</h2>
-        <li>As a former student athlete I have learned the importance of self-discipline and the value of working with others in a cohesive and productive manner with others to achieve team goals as well as personal goals. Developing the mental fortitude to handle and overcome adversity. The most important lesson I believed I learned was being okay with not knowing everything but surrounding myself with people who help fill in the gaps so that I can be successful.</li>
-        <div class="container text-center mt-2 mb-5">
+        <h2 class="Portfolio"><strong>Portfolio</strong></h2>
+        <ul>As a former student athlete I have learned the importance of self-discipline and the value of working with others in a cohesive and productive manner with others to achieve team goals as well as personal goals. Developing the mental fortitude to handle and overcome adversity. The most important lesson I believed I learned was being okay with not knowing everything but surrounding myself with people who help fill in the gaps so that I can be successful.</ul>
+    </div>
+</section>
+        <section id="Tech skills">
+            <div class="container text-center">
+        <h2 class="Technical skills mt-3"><strong>Technical Efficiencies</strong></h2>
+        <li>Front end: Javascript, React, Redux, HTML5, CSS, Bootstrap</li>
+        <li>Back end: Rest API, Typescript, SQL, Express, Node.js, Docker</li>
+        <li>UI/UX Design: Balsamiq, Draw.io</li>
+        <li>Project Management Tools: Version control with GitHub</li>
+            </div>
+        <div class="container text-center mt-4 mb-4">
             <div class="row">
-                <div class="col-lg2">
+                <div class="col-sm2">
                     <i class="fa-solid fa-paw"></i>
                     <a class="nav-link active" aria-current="page" href="#">Capstone</a>
                 </div>
@@ -100,8 +124,9 @@
         </div>
 </Section>
 
-<Section>
-    <div id="carouselExampleIndicators-1" class="carousel slide" data-bs-ride="true">
+<section id="carousel-1">
+    <div class="container fluid p-2">
+    <div id="carouselExampleIndicators-1" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -110,7 +135,7 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./images/Football-photo-1.jpg" class="d-block w-100" alt="Me">
+                <img src="./images/Football.png" class="d-block w-100" alt="Me">
             </div>
             <div class="carousel-item">
                 <img src="./images/santos-display-image.jpg" class="d-block w-100" alt="Me-2">
@@ -122,34 +147,36 @@
                 <img src="./images/B1G-football-pic.jpg" class="d-block w-100" alt="Me-3">
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-    </div>
-    </div>
     </div>
     </div>
 </section>
 
 <section>
     <footer>
-        <ul class="nav justify-content-center mt-5">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="https://github.com/dsantos4?tab=repositories">Git Hub</a>
+        <ul class="nav justify-content-center mt-3 mb-0">
+            <li class="nav-item-1">
+                <a class="nav-link active" aria-current="page" href="https://github.com/dsantos4?tab=repositories"></a>
+                <i class="fa-brands fa-github"></i>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://www.linkedin.com/feed/">Linkedin</a>
+            <li class="nav-item-1">
+                <a class="nav-link" href="https://www.linkedin.com/feed/"></a>
+                <i class="fa-brands fa-linkedin"></i>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://www.facebook.com/david.santos.79462815">Facebook</a>
+            <li class="nav-item-1">
+                <a class="nav-link" href="https://www.facebook.com/david.santos.79462815"></a>
+                <i class="fa-brands fa-facebook"></i>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Instagram</a>
+            <li class="nav-item-1">
+                <a class="nav-link" href="https://www.instagram.com/dsantos41/"></a>
+                <i class="fa-brands fa-instagram"></i>
             </li>
         </ul>
     </footer>
