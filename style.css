@@ -85,9 +85,19 @@ body {
 /*    height: 250px;*/
 /*}*/
 
-/*@media all and (min-width: 900px ) {
-}*/
+/*@media all and (min-width: 900px ) {*/
+/*}*/
+.nav-link{
+    color:white;
+}
 
+.fa-solid{
+    color:white;
+}
+
+.fa-brands{
+    color:white;
+}
 .container-3{
     width: 25%;
     height: 50vh;
