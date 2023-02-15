@@ -5,6 +5,10 @@ nav{
     background: darkslategrey;
 }
 
+.low-opacity-bg-image {
+    background-image: url("");
+}
+
 .Portfolio{
     color: white;
 }
